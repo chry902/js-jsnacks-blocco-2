@@ -9,25 +9,25 @@ const squadre = [
 
         juve: `cannondale`,
         punti_fatti: 10,
-        falli_subiti: 3
+        falli_subiti: 0
     },
     {
 
         milan: `cannondale1`,
-        punti_fatti: 12,
-        falli_subiti: 5
+        punti_fatti: 10,
+        falli_subiti: 0
     },
     {
 
         inter: `cannondale2`,
-        punti_fatti: 8,
-        falli_subiti: 1
+        punti_fatti: 0,
+        falli_subiti: 0
     },
     {
 
         napoli: `cannondale3`,
-        punti_fatti: 7,
-        falli_subiti: 4
+        punti_fatti: 0,
+        falli_subiti: 0
     },
 
 
