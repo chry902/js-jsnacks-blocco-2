@@ -36,12 +36,7 @@ const squadre = [
 Descrizione:
 Generare numeri random al posto degli 0 nelle proprietà:
 punti fatti e falli subiti*/
-punti = random;
-falli = random;
-
-function (random) {
-    statistiche = matMath.floor(Math.random() * 10);
+punti = matMath.floor(Math.random() * 10);
+falli = matMath.floor(Math.random() * 10);
 
 
-
-};
