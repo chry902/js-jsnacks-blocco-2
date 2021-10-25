@@ -37,11 +37,11 @@ Descrizione:
 Generare numeri random al posto degli 0 nelle proprietà:
 punti fatti e falli subiti*/
 
-statistiche = punti, falli
 
-function() {
+
+function () {
     statistiche = matMath.floor(Math.random() * 10);
 
 
 
-}
+};
