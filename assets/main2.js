@@ -39,4 +39,4 @@ punti fatti e falli subiti*/
 punti = matMath.floor(Math.random() * 10);
 falli = matMath.floor(Math.random() * 10);
 
-
+console.log(punti, falli);
