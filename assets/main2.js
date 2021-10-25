@@ -8,27 +8,40 @@ const squadre = [
     {
 
         juve: `cannondale`,
-        punti_fatti: 10,
-        falli_subiti: 0
+        punti: 0,
+        falli: 0
     },
     {
 
         milan: `cannondale1`,
-        punti_fatti: 10,
-        falli_subiti: 0
+        punti: 0,
+        falli: 0
     },
     {
 
         inter: `cannondale2`,
-        punti_fatti: 0,
-        falli_subiti: 0
+        punti: 0,
+        falli: 0
     },
     {
 
         napoli: `cannondale3`,
-        punti_fatti: 0,
-        falli_subiti: 0
+        punti: 0,
+        falli: 0
     },
 
 
 ]
+/*Snack 2b blocco 2
+Descrizione:
+Generare numeri random al posto degli 0 nelle proprietà:
+punti fatti e falli subiti*/
+
+statistiche = punti, falli
+
+function() {
+    statistiche = matMath.floor(Math.random() * 10);
+
+
+
+}
